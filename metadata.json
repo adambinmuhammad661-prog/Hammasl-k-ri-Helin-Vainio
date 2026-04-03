@@ -1,0 +1,5 @@
+{
+  "name": "Hammaslääkäri Helinä Vainio",
+  "description": "Asiantuntevaa ja välittävää hammashoitoa Helsingin Töölössä. Hammaslääkäri Helinä Vainio tarjoaa monipuoliset hammaslääkäripalvelut Topeliuksenkadulla.",
+  "requestFramePermissions": ["geolocation"]
+}
