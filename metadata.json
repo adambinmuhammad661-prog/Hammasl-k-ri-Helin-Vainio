@@ -1,5 +1,5 @@
 {
-  "name": "Hammaslääkäri Helinä Vainio",
-  "description": "Asiantuntevaa ja välittävää hammashoitoa Helsingin Töölössä. Hammaslääkäri Helinä Vainio tarjoaa monipuoliset hammaslääkäripalvelut Topeliuksenkadulla.",
+  "name": "Hammaslääkäri Pirkko Hult",
+  "description": "Asiantuntevaa hammashoitoa Helsingin Lauttasaaressa. Hammaslääkäri Pirkko Hult tarjoaa monipuoliset hammaslääkäripalvelut Lauttasaarentiellä.",
   "requestFramePermissions": ["geolocation"]
 }

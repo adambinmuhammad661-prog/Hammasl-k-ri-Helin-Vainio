@@ -116,7 +116,7 @@ export default function App() {
               <HeartPulse className="w-6 h-6" />
             </div>
             <div>
-              <span className="block text-lg font-serif font-bold leading-none text-slate-900">Helinä Vainio</span>
+              <span className="block text-lg font-serif font-bold leading-none text-slate-900">Pirkko Hult</span>
               <span className="text-[10px] uppercase tracking-widest text-brand-600 font-bold">Hammaslääkäri</span>
             </div>
           </div>
@@ -133,7 +133,7 @@ export default function App() {
               </button>
             ))}
             <a 
-              href="tel:0503370008"
+              href="tel:09670649"
               className="bg-brand-600 text-white px-6 py-2.5 rounded-full text-sm font-bold shadow-lg shadow-brand-100 hover:bg-brand-700 hover:shadow-brand-200 transition-all active:scale-95 flex items-center gap-2"
             >
               <Phone className="w-4 h-4" />
@@ -172,15 +172,15 @@ export default function App() {
               ))}
               <div className="h-px bg-slate-100 my-4" />
               <a 
-                href="tel:0503370008"
+                href="tel:09670649"
                 className="flex items-center gap-4 text-brand-600 font-bold text-xl"
               >
                 <Phone />
-                050 3370008
+                09 670649
               </a>
               <div className="flex items-center gap-4 text-slate-500">
                 <MapPin />
-                Topeliuksenkatu 18 C 34, Helsinki
+                Lauttasaarentie 11, Helsinki
               </div>
             </div>
           </motion.div>
@@ -198,18 +198,18 @@ export default function App() {
           >
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-100 text-brand-700 text-xs font-bold uppercase tracking-wider mb-6">
               <Star className="w-3 h-3 fill-current" />
-              Yksilöllistä hammashoitoa Helsingissä
+              Yksilöllistä hammashoitoa Lauttasaaressa
             </div>
             <h1 className="text-5xl md:text-7xl font-serif font-bold text-slate-900 leading-[1.1] mb-6">
               Terve hymy on <span className="text-brand-600 italic">kaunis</span> hymy.
             </h1>
             <p className="text-lg text-slate-600 mb-10 max-w-lg leading-relaxed">
-              Tervetuloa asiantuntevaan ja välittävään hammashoitoon Töölöön. 
+              Tervetuloa asiantuntevaan hammashoitoon Lauttasaareen. 
               Tarjoamme monipuoliset palvelut rennossa ja luottamuksellisessa ympäristössä.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a 
-                href="tel:0503370008"
+                href="tel:09670649"
                 className="bg-brand-600 text-white px-8 py-4 rounded-full text-lg font-bold shadow-xl shadow-brand-200 hover:bg-brand-700 transition-all flex items-center justify-center gap-2 group"
               >
                 Varaa aika soittamalla
@@ -286,7 +286,7 @@ export default function App() {
               { label: "Vuoden kokemus", value: "20+" },
               { label: "Tyytyväisiä asiakkaita", value: "2k+" },
               { label: "Palvelut", value: "15+" },
-              { label: "Sijainti", value: "Töölö" },
+              { label: "Sijainti", value: "Lauttasaari" },
             ].map((stat, i) => (
               <div key={i} className="text-center">
                 <div className="text-3xl md:text-4xl font-serif font-bold text-brand-600 mb-1">{stat.value}</div>
@@ -346,11 +346,11 @@ export default function App() {
         
         <div className="container-custom grid lg:grid-cols-2 gap-16 items-center">
           <div className="order-2 lg:order-1">
-            <h2 className="text-4xl md:text-5xl font-bold mb-8">Hammaslääkäri Helinä Vainio</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-8">Hammaslääkäri Pirkko Hult</h2>
             <div className="space-y-6 text-brand-100 leading-relaxed">
               <p>
                 Olen toiminut hammaslääkärinä Helsingissä jo yli kahden vuosikymmenen ajan. 
-                Vastaanotollani Töölössä panostan erityisesti kiireettömään kohtaamiseen ja 
+                Vastaanotollani Lauttasaaressa panostan erityisesti kiireettömään kohtaamiseen ja 
                 yksilölliseen hoitosuunnitelmaan.
               </p>
               <p>
@@ -362,7 +362,7 @@ export default function App() {
                   "Laaja kokemus yleishammashoidosta",
                   "Erityisosaamista pelkopotilaiden kohtaamisessa",
                   "Jatkuva kouluttautuminen uusimpiin menetelmiin",
-                  "Vastaanotto Töölön sydämessä"
+                  "Vastaanotto Lauttasaaren sydämessä"
                 ].map((item, i) => (
                   <div key={i} className="flex items-center gap-3">
                     <CheckCircle2 className="w-5 h-5 text-brand-400" />
@@ -377,7 +377,7 @@ export default function App() {
             <div className="aspect-square rounded-full border-8 border-brand-800 overflow-hidden relative z-10 shadow-2xl">
               <img 
                 src="https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=1000" 
-                alt="Hammaslääkäri Helinä Vainio" 
+                alt="Hammaslääkäri Pirkko Hult" 
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
               />
@@ -411,8 +411,8 @@ export default function App() {
                   </div>
                   <div>
                     <h4 className="font-bold text-slate-900 mb-1">Puhelin</h4>
-                    <a href="tel:0503370008" className="text-2xl font-serif font-bold text-brand-600 hover:text-brand-700 transition-colors">
-                      050 3370008
+                    <a href="tel:09670649" className="text-2xl font-serif font-bold text-brand-600 hover:text-brand-700 transition-colors">
+                      09 670649
                     </a>
                     <p className="text-sm text-slate-500 mt-1">Vastaamme puheluihin arkisin klo 8-16.</p>
                   </div>
@@ -424,10 +424,10 @@ export default function App() {
                   </div>
                   <div>
                     <h4 className="font-bold text-slate-900 mb-1">Osoite</h4>
-                    <p className="text-lg text-slate-700">Topeliuksenkatu 18 C 34</p>
-                    <p className="text-lg text-slate-700">00250 Helsinki</p>
+                    <p className="text-lg text-slate-700">Lauttasaarentie 11</p>
+                    <p className="text-lg text-slate-700">00200 Helsinki</p>
                     <a 
-                      href="https://www.google.com/maps/dir/?api=1&destination=Topeliuksenkatu+18+C+34+00250+Helsinki" 
+                      href="https://www.google.com/maps/dir/?api=1&destination=Lauttasaarentie+11+00200+Helsinki" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="text-sm font-bold text-brand-600 hover:underline mt-2 inline-block"
@@ -459,7 +459,7 @@ export default function App() {
               <div className="absolute inset-0 bg-slate-200 flex flex-col items-center justify-center text-slate-400 p-8 text-center">
                 <MapPin className="w-12 h-12 mb-4 opacity-20" />
                 <p className="font-medium">Kartta ladataan tässä...</p>
-                <p className="text-xs mt-2">Topeliuksenkatu 18, Helsinki</p>
+                <p className="text-xs mt-2">Lauttasaarentie 11, Helsinki</p>
                 <div className="mt-6 w-full h-full bg-slate-300/50 rounded-3xl border-4 border-white/50 overflow-hidden">
                    {/* Placeholder for map visual */}
                    <div className="w-full h-full relative">
@@ -473,7 +473,7 @@ export default function App() {
                 </div>
               </div>
               <a 
-                href="https://www.google.com/maps/search/?api=1&query=Topeliuksenkatu+18+C+34+00250+Helsinki" 
+                href="https://www.google.com/maps/search/?api=1&query=Lauttasaarentie+11+00200+Helsinki" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="absolute inset-0 z-10"
@@ -492,10 +492,10 @@ export default function App() {
                 <div className="w-8 h-8 bg-brand-600 rounded-lg flex items-center justify-center text-white">
                   <HeartPulse className="w-5 h-5" />
                 </div>
-                <span className="text-xl font-serif font-bold">Helinä Vainio</span>
+                <span className="text-xl font-serif font-bold">Pirkko Hult</span>
               </div>
               <p className="text-slate-400 max-w-sm leading-relaxed mb-8">
-                Asiantuntevaa ja välittävää hammashoitoa Helsingin Töölössä jo yli 20 vuoden kokemuksella. 
+                Asiantuntevaa hammashoitoa Helsingin Lauttasaaressa jo yli 20 vuoden kokemuksella. 
                 Tervetuloa palveltavaksi!
               </p>
               <div className="flex gap-4">
@@ -524,21 +524,21 @@ export default function App() {
               <ul className="space-y-4 text-slate-400">
                 <li className="flex items-center gap-3">
                   <Phone className="w-4 h-4 text-brand-500" />
-                  <a href="tel:0503370008">050 3370008</a>
+                  <a href="tel:09670649">09 670649</a>
                 </li>
                 <li className="flex items-start gap-3">
                   <MapPin className="w-4 h-4 text-brand-500 shrink-0 mt-1" />
-                  <span>Topeliuksenkatu 18 C 34,<br />00250 Helsinki</span>
+                  <span>Lauttasaarentie 11,<br />00200 Helsinki</span>
                 </li>
               </ul>
             </div>
           </div>
           
           <div className="pt-10 border-top border-slate-800 flex flex-col md:flex-row justify-between items-center gap-6 text-sm text-slate-500">
-            <p>© {new Date().getFullYear()} Hammaslääkäri Helinä Vainio. Kaikki oikeudet pidätetään.</p>
+            <p>© {new Date().getFullYear()} Hammaslääkäri Pirkko Hult. Kaikki oikeudet pidätetään.</p>
             <div className="flex gap-8">
               <p>SEO Optimoitu Hammashoito Helsinki</p>
-              <p>Töölön Hammaslääkäripalvelut</p>
+              <p>Lauttasaaren Hammaslääkäripalvelut</p>
             </div>
           </div>
         </div>
@@ -547,7 +547,7 @@ export default function App() {
       {/* Floating CTA for Mobile */}
       <div className="fixed bottom-6 right-6 z-40 md:hidden">
         <a 
-          href="tel:0503370008"
+          href="tel:09670649"
           className="w-16 h-16 bg-brand-600 text-white rounded-full flex items-center justify-center shadow-2xl shadow-brand-400 animate-pulse"
         >
           <Phone className="w-8 h-8" />
